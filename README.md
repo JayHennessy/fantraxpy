@@ -1,7 +1,8 @@
 # Fantraxpy API Client (Unofficial)
 An API client for Fantrax.com fantasy sports website.
 
-Unfortunately, Fantrax has updated their website and use reCAPTCHA so webscrapping isn't possible without way more work then I'm willing to put in. THIS WILL NOT BE ABLE TO LOG IN AND THEREFORE DOES NOT WORK.
+Unfortunately, Fantrax has updated their website and use reCAPTCHA so webscrapping isn't possible without way more work then I'm willing to put in. 
+*THIS WILL NOT BE ABLE TO LOG IN AND THEREFORE IT DOES NOT WORK.*
 
 ## Setup
 First: create a conda environment with from the environment yaml.
