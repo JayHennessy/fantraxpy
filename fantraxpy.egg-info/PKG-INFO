@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fantraxpy
+Version: 0.0.1
+Summary: This is an unofficial Fantrax API client.
+Home-page: https://github.com/JayHennessy/fantraxAPI
+Author: Jay Hennessy
+Author-email: tjay.hennessy@gmail.com
+License: UNKNOWN
+Description: # Fantrax API Client
+        This is an unofficial Fantrax API client.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
