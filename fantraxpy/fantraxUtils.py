@@ -27,26 +27,6 @@ BASE_PAYLOAD = {'msgs': [],
                 'at':0,
                 'tz':'America/Indianapolis',
                 'v': VERSION}
-# def __init__( logger=None, debug=None, loglevel=None):
-#     self.url = BASE_URL + '/fxpa/req'
-#     self.version = '9.3.2'
-#     self.role = []
-#     self.userId = ''
-#     self.logger = logger
-#     self.debug = debug
-#     self.loglevel = loglevel
-#     self._build_payload()
-#     self.session, self.fantrax_user = connect(self.url, 
-#                             logger=self.logger, debug=self.debug,
-#                             loglevel=self.loglevel )
-
-#     self.sport= ''
-#     self.sportId = ''
-#     self.league = ''
-#     self.leagueId = ''
-#     self.team = ''
-#     self.teamId = ''
-#     self.login()
 
 def _build_payload():
     payload = {'msgs': [],
@@ -161,17 +141,6 @@ def _get_team_roster_info(session, leagueId, teamId):
     response = session.post(URL, json=payload).json()
     _check_response(response)
     return response['responses'][0]['data']
-
-# def _execute_team_roster_change(player, leagueId, teamId):
-    
-#     params = {'leagueId': leagueId}   
-    
-#     playerMap = _get_player_map(player)  
-#     payload = _build_payload('changeRoster', teamId=teamId, 
-#                                 leagueId=leagueId, playerMap=playerMap)
-#     r = _send_request('post', payload=payload, params=params)
-#     return r
-
 
 def get_teams(leagueId):
     data = _get_league_home_info(leagueId)
